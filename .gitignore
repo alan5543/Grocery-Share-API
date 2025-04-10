@@ -1,0 +1,24 @@
+# Virtual environment
+django-env/
+
+# Environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django migrations (optional, if you don’t want to commit migrations)
+# grocery_room/api/migrations/*
+# grocery_room/grocery_room/migrations/*
+
+# Database files (if you use SQLite locally)
+*.sqlite3
+
+# Static files (if collected for production)
+staticfiles/
+
+# macOS system files
+.DS_Store
