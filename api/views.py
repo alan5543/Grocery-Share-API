@@ -988,22 +988,27 @@ class HistoryView(APIView):
 
     def get(self, request, group_id):
         # Get the group and verify the user is a member
+        print("get HistoryView")
         group = get_object_or_404(Group, id=group_id)
         if not GroupMember.objects.filter(group=group, user=request.user).exists():
             return Response({"error": "You are not a member of this group."}, status=status.HTTP_403_FORBIDDEN)
 
+        print("get group")
         # Get the user’s group member record
         user_member = get_object_or_404(
             GroupMember, group=group, user=request.user)
 
+        print("get user_member")
         # Validate query parameters
         is_valid, params = validate_history_params(request)
         if not is_valid:
             return Response({"error": params}, status=status.HTTP_400_BAD_REQUEST)
 
+        print("get validate_history_params")
         # Fetch base items
         items = fetch_base_items(group, user_member, params['view'])
 
+        print("get fetch_base_items")
         # Apply filters and sorting
         items = apply_search_filter(items, params['view'], params['search'])
         items = apply_category_filter(
