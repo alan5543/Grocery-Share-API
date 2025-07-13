@@ -60,6 +60,18 @@
    python manage.py runserver
    ```
 
+- **Using ngrok (Public Access):**
+  1. Download and install ngrok from [ngrok.com](https://ngrok.com/).
+  2. Start ngrok with the following command in a new terminal window:
+      ```bash
+      ngrok http 8000
+      ```
+   3. Note the public URL provided by ngrok (e.g., https://abcd1234.ngrok.io). 
+   4. Run the Server:
+      ```bash
+      python manage.py runserver
+      ```
+
 ## Project Structure
 - `api/`: Contains the Django app for the REST API.
 - `grocery_room/`: Main project directory with settings and URLs.
