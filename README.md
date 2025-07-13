@@ -1,15 +1,15 @@
 # Grocery Share App - Backend API
 
-## Overview
+## Overview  
 This is the backend REST API built with Django, designed to support the Grocery Share App. It handles API endpoints for managing grocery-related data and is intended to be used in conjunction with the frontend Grocery Share App (to be pushed to GitHub separately).
 
-## Prerequisites
-- Python 3.x
-- pip (Python package manager)
-- Git (for version control)
-- PostgreSQL (or compatible database as per `.env` configuration)
+## Prerequisites  
+- Python 3.x  
+- pip (Python package manager)  
+- Git (for version control)  
+- PostgreSQL (or compatible database as per `.env` configuration)  
 
-## Setup Instructions
+## Setup Instructions  
 
 1. **Clone the Repository**
    ```bash
