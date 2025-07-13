@@ -1,5 +1,8 @@
 # Grocery Share App - Backend API
 
+<img src="appIcon.jpg" alt="Grocery Share App Icon" width="150" align="right">
+
+
 ## Overview  
 This is the backend REST API built with Django, designed to support the Grocery Share App. It handles API endpoints for managing grocery-related data and is intended to be used in conjunction with the frontend Grocery Share App (to be pushed to GitHub separately).
 
