@@ -55,7 +55,6 @@ This is the backend REST API built with Django, designed to support the Grocery 
    ```bash
    python manage.py runserver
    ```
-   Access the API at `http://127.0.0.1:8000`.
 
 ## Project Structure
 - `api/`: Contains the Django app for the REST API.
