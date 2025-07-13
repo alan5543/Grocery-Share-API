@@ -3,12 +3,12 @@
 
 
 ## Overview  
-<div style="display: flex; align-items: center;">
-  <div style="flex: 4;">
+<div style="display: flex; align-items: center; margin-top: 20px;">
+  <div style="flex: 4; padding-right: 20px;">
     This is the backend REST API built with Django, designed to support the Grocery Share App. It handles API endpoints for managing grocery-related data and is intended to be used in conjunction with the frontend Grocery Share App (to be pushed to GitHub separately).
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="appIcon.jpg" alt="Grocery Share App Icon" width="150">
+    <img src="appIcon.jpg" alt="Grocery Share App Icon" width="150" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
 </div>
 
