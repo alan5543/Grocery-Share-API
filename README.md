@@ -7,6 +7,12 @@
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------|
 | This is the backend REST API built with Django, designed to support the Grocery Share App. It handles API endpoints for managing grocery-related data and is intended to be used in conjunction with the frontend Grocery Share App (to be pushed to GitHub separately). | ![Grocery Share App Icon](appIcon.jpg) |
 
+
+## Demo Video
+Watch a demonstration of the project in action:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/23S-vV6ZRFo" title="Project Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Prerequisites  
 - Python 3.x  
 - pip (Python package manager)  
