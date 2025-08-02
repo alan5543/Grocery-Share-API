@@ -11,7 +11,7 @@
 ## Demo Video
 Watch a demonstration of the project in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/23S-vV6ZRFo" title="Project Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Project Demo Video](https://img.youtube.com/vi/23S-vV6ZRFo/hqdefault.jpg)](https://youtu.be/23S-vV6ZRFo?si=CDKJxOtJcwZESfQM)
 
 ## Prerequisites  
 - Python 3.x  
